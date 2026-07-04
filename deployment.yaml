@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: web-app-container
-        image: nginx:alpine
+        image: nginx:1.25-alpine
         ports:
         - containerPort: 80
